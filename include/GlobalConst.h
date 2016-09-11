@@ -10,4 +10,4 @@
 
 LivingObj l;
 
-Duree d;
+//Duree d;

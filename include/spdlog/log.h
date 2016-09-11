@@ -22,12 +22,13 @@ public:
 
     ~LivingObj(){
         spdlog::drop_all();
-    };
+ };
 
-    template<typename T> void operator<<( const T* msg)
-    {
-        file->info(msg);
-    }
+template<typename T> void operator<<( const T* msg)
+{
+file->info(msg);
+}
+
 /*    void i(const char* msg){
         file->info(msg);
     };*/
@@ -36,6 +37,7 @@ public:
 
 //using namespace std;
 
+/*
 class Duree{
 
 private:
@@ -78,4 +80,4 @@ public:
                           << " ms\n";
             }
 };
-
+*/
