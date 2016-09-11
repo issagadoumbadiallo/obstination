@@ -1,14 +1,20 @@
-//#include <iostream>
-//#include "include/GlobalConst.h"
+#include <iostream>
+#include "include/GlobalConst.h"
+
 //#include <vector>
 //#include <chrono>
 //#include <time.h>
 //#include <thread>
-#include <iostream>
+//#include <iostream>
+
+/*
 #include <iomanip>
 #include <chrono>
 #include <ctime>
 #include <thread>
+*/
+
+/*
 void f()
 {
     volatile double d = 0;
@@ -16,12 +22,15 @@ void f()
         for(int m=0; m<10000; ++m)
             d += d*n*m;
 }
+*/
 
-/*void tt(){
+// /*
+void tt(){
     l<<"Trying tt voidFunc";
-}*/
-//
-/*int main() {
+}
+// */
+/*
+int main() {
     l << "Starting Main";
     d.restart();
 
@@ -36,8 +45,9 @@ void f()
     d.show_all();
 
     return 0;
-}*/
-
+}
+// */
+ /*
 int main()
 {
     std::clock_t c_start = std::clock();
@@ -59,12 +69,14 @@ int main()
               << std::chrono::duration<double, std::milli>(t_end-t_start).count()
               << " ms\n";
 }
+ */
 
-/* int main() {
-    LivingObj l= LivingObj();
-    l << "hello" ;
+// /*
+ int main() {
+   l <<"1" ;
 
-    l << "1"; //"Test";
+//    l << "1"; //"Test";
 
     return 0;
-}*/
+}
+//*/
